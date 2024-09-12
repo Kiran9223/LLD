@@ -7,4 +7,9 @@ public class HumanPlayer extends Player {
         super(symbol);
         this.user = user;
     }
+
+    @Override
+    public BoardCell makeMove(Board borad){
+
+    }
 }
